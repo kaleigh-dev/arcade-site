@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "react"
+	},
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run --allow-all npm:vite",
+    "build": "deno run --allow-all npm:vite build",
+    "preview": "deno run --allow-all npm:vite preview"
+  },
+  "imports": {
+    "vite": "npm:vite@5.0.0",
+    "@vitejs/plugin-react": "npm:@vitejs/plugin-react@4.2.0",
+    "react": "npm:react@18.2.0",
+    "react-dom": "npm:react-dom@18.2.0",
+    "@types/react": "npm:@types/react@18.2.0",
+    "@types/react-dom": "npm:@types/react-dom@18.2.0",
+    "react-router-dom": "npm:react-router-dom@6.20.0",
+    "tailwindcss": "npm:tailwindcss@3.4.0",
+    "autoprefixer": "npm:autoprefixer@10.4.16",
+    "@radix-ui/": "npm:@radix-ui/",
+    "clsx": "npm:clsx@2.0.0",
+    "tailwind-merge": "npm:tailwind-merge@2.2.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "hash": "adb4766c",
+  "browserHash": "01862c2f",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9e516e89",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "6b803d29",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "a8a4958d",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "cc7a549d",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/.deno/react-router-dom@6.20.0/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "f9eff336",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ADLTQMDX": {
+      "file": "chunk-ADLTQMDX.js"
+    },
+    "chunk-EPZLIIWP": {
+      "file": "chunk-EPZLIIWP.js"
+    }
+  }
+}
