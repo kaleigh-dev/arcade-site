@@ -5,9 +5,9 @@ import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-bgPrimary">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white shadow-md">
+      <nav className="sticky top-0 z-50 shadow-md">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link to="/" className="text-2xl font-bold text-primary">
